@@ -1,7 +1,7 @@
 const Hapi = require("@hapi/hapi");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const routesApiVer1 = require("./routers/index.router");
+const routesApiVer1 = require("./API/ApiUser/routers/index.router");
 dotenv.config();
 
 // connect database
